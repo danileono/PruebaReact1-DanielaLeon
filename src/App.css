@@ -1,0 +1,142 @@
+#root {
+  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #ffde08 !important;
+}
+
+
+header{
+  background-color: coral;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: -5.rem !important;
+}
+
+.header-2{
+  background-color: #0bb9fe;
+  background-image: url("/banner-simpsons.jpg");
+  object-fit: cover;
+  width: 100%;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+
+.text-center.my-4{
+  margin-top: -3.2rem !important;
+}
+
+.container{
+  margin-top: 45% !important;
+}
+
+.card{
+height: auto !important;
+width: 100%;
+padding: 4% !important;
+gap: 1rem;
+
+}
+
+.card img{
+  width: 70% !important;
+  height: 350px;
+  object-fit: cover !important;
+  object-position: top;
+  margin: auto;
+}
+
+
+.container-fluid{
+  justify-content: center !important;
+  gap: 1rem;
+}
+
+
+
+
+
+@media (min-width: 576px) {
+  
+  .text-center.my-4{
+    margin-top: -4.5rem !important;
+  }
+
+  .container{
+    margin-top: 15% !important;
+  }
+
+  .header-2{
+    background-color: #0bb9fe;
+    background-image: url("/banner-simpsons.jpg");
+    object-fit: cover;
+    width: 100%;
+    height: 85px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  
+  
+  .container-fluid{
+    justify-content: center !important;
+    gap: 1rem;
+  }
+
+  
+
+}
+
+/* MEDIA QUERY DESKTOP */
+@media (min-width: 992px){
+
+  .text-center.my-4{
+    margin-top: -7.0rem !important;
+  }
+
+  .container{
+    margin-top: 10% !important;
+  }
+
+
+header{
+  background-color: #0bb9fe;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: -5.rem !important;
+  padding: 1rem 2rem;
+}
+
+.header-2{
+  background-color: #0bb9fe;
+  background-image: url("/banner-simpsons.jpg");
+  object-fit: cover;
+  width: 100%;
+  height: 85px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+
+.container-fluid{
+  justify-content: center !important;
+  gap: 1rem;
+}
+
+}
