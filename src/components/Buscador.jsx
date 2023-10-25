@@ -1,6 +1,9 @@
 import React from 'react';
 
+
+//La prop onFilterChange se usa para pasar una función que se ejecutará cuando el usuario filtre en el input.
 const Buscador = ({ onFilterChange }) => {
+//handleChange es una función que se ejecuta cada vez que el usuario cambia filtre algo en el input.
   const handleChange = (event) => {
     const filter = event.target.value;
     onFilterChange(filter);
